@@ -1,0 +1,80 @@
+.modle {
+	padding: 56px;
+}
+h1 {
+	font-size: 2.125rem;
+}
+hr {
+	height: 8px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius:4px;
+	border-style: hidden;
+	margin-top: -1.25rem;
+}
+.normal_font {
+	font-size: 1.5rem;
+	color: #A1B3B7;
+}
+#start_title {
+	color: #0CE7C1;
+}
+#sport_title {
+	color: #53B4FF;
+}
+#control_title {
+	color: #7A92E0;
+}
+#event_title {
+	color: #FFA576;
+}
+#show_title {
+	color: #096C1D;
+}
+#perceived_title {
+	color: #9C6E00;
+}
+#math_title {
+	color: #809296;
+}
+#start_hr {
+	background-color: #0CE7C1;
+}
+#sport_hr {
+	background-color: #53B4FF;
+}
+#control_hr {
+	background-color: #7A92E0;
+}
+#event_hr {
+	background-color: #FFA576;
+}
+#show_hr {
+	background-color: #096C1D;
+}
+#perceived_hr {
+	background-color: #9C6E00;
+}
+#math_hr {
+	background-color: #809296;
+}
+#start_1 {
+	background-image: url(../img/start/1.png);
+	width: 224px;
+	height: 86px;
+}
+#start_2 {
+	background-image: url(../img/start/2.png);
+	width: 173px;
+	height: 76px;
+}
+#start_3 {
+	background-image: url(../img/start/3.png);
+	width: 308px;
+	height: 76px;
+}
+#start_4 {
+	background-image: url(../img/start/4.png);
+	width: 434px;
+	height: 86px;
+}
