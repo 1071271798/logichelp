@@ -1,0 +1,52 @@
+@media screen and (max-width:568px){
+.modle {
+	width: 96%;
+	padding: 14px 2%;
+}
+.programBlock {
+	margin: 14px 0 0 0;
+}
+.programContent,
+.programContentStart,
+.programContentSport,
+.programContentControl1,
+.programContentControl2,
+.programContentEvent,
+.programContentShow,
+.programContentPerceived,
+.programContentMath{ 
+	top: 11px; 
+}  
+}
+@media screen and (max-width:667px) and (min-width:667px){
+.programContent,
+.programContentStart,
+.programContentSport,
+.programContentControl1,
+.programContentControl2,
+.programContentEvent,
+.programContentShow,
+.programContentPerceived,
+.programContentMath{ 
+	top: 11px; 
+}	
+}
+@media screen and (max-width:736px) and (min-width:736px){
+.programContent,
+.programContentStart,
+.programContentSport,
+.programContentControl1,
+.programContentControl2,
+.programContentEvent,
+.programContentShow,
+.programContentPerceived,
+.programContentMath{ 
+	top: 11px; 
+}	
+}
+@media screen and (max-width:960px) and (min-width:512px){
+
+}
+@media screen and (min-width:960px) {
+
+}
