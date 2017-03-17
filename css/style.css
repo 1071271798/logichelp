@@ -5,19 +5,7 @@
 .modle {
 	width: 92%;
 	padding: 28px 4%;
-}
-table, tr {
-	width: 100%;
-	border: none;
-	vertical-align: top;
-	border-spacing: 0;
-	-webkit-border-horizontal-spacing: 0;
-	-webkit-border-vertical-spacing: 0;
-}
-td {
-	width: 50%;
-	border: none;
-	vertical-align: top;
+	clear: both;
 }
 h1 {
 	font-size: 1.0625rem;
@@ -74,10 +62,12 @@ hr {
 	background-color: #809296;
 }
 .programBlock {
-	width: 98%;
-	height: 75px;
+	width: 49%;
+	height: 80px;
 	margin: 28px 0 0 0;
 	position: relative;
+	float: left;
+	/*border: 1px solid black;*/
 }
 #controlBlock1 {
 	height: 120px;
@@ -111,9 +101,11 @@ hr {
 .programContentPerceived,
 .programContentMath{
 	font-size: 0.75rem;
+	line-height: 0.75rem;
 	position: absolute; 
-	top: 14px; 
+	top: 12px; 
 	color: white;
+	/*border: 1px solid black;*/
 }
 .programContentStart {
 	color: #0D6C5B;
@@ -143,7 +135,9 @@ hr {
 	padding-top: 0.625rem;
 	font-size: 0.75rem;
 	color: #A1B3B7;
+	width: 90%;
 	display: block;
+	/*border: 1px solid black;*/
 }
 .start_1_img {
 	width: 112px;
