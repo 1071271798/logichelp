@@ -1,0 +1,39 @@
+@media only screen and (max-width: 567px) {
+.modle {
+	width: 96%;
+	padding: 1rem 2%;
+}
+.programBlock {
+	width: 100%;
+	margin: 1rem 0 0 0;
+}
+.programDes {
+	padding-top: 0.125rem;
+}
+#controlBlock3 {
+	margin-top: 14px;
+}
+#controlBlock5 {
+	margin-top: 14px;
+}
+#controlBlock7 {
+	margin-top: 14px;
+}
+}
+@media only screen and (max-width:568px) and (min-width: 568px) {
+.modle {
+	width: 98%;
+	padding: 10px 1%;
+}
+.programBlock {
+	width: 50%;
+	margin: 10px 0 0 0;
+}  
+}
+@media only screen and (max-width:667px) and (min-width:667px) {
+.programBlock {
+	width: 50%;
+}
+}
+@media only screen and (max-width:736px) and (min-width:736px) {	
+}

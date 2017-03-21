@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+<link rel="stylesheet" type="text/css" href="en/css/style.css" />
+<link rel="stylesheet" type="text/css" href="en/css/media.css" />
+<title></title>
+</head>
+<body>
+<div id="start" class="modle">
+<header>
+<h1 id="start_title">Start</h1>
+<hr id="start_hr"/>
+</header>
+<div class="programBlock">
+<span id="start_1_con" class="programContent">Click 'Run' to start</span>
+<img src="en/img/start/1.png" class="start_1_img"/>
+<span class="programDes">Tap 'Run' to run the program</span>
+</div>
+<div class="programBlock">
+<span id="start_2_con" class="programContent">Go to start</span>
+<img src="en/img/start/2.png" class="start_2_img"/>
+<span class="programDes">Restart program</span>
+</div>	
+<div class="programBlock">
+<span id="start_3_con_1" class="programContent">Phone/tablet</span>
+<span id="start_3_con_2" class="programContentStart">Tile left</span>
+<img src="en/img/start/3.png" class="start_3_img">
+<span class="programDes">After the phone status event occurs,the program starts running from this block</span>
+</div>
+<div class="programBlock">
+<span id="start_4_con_1" class="programContent">Touch sensor</span>
+<span id="start_4_con_2" class="programContentStart">ID-1</span>
+<span id="start_4_con_3" class="programContent">status</span>
+<span id="start_4_con_4" class="programContentStart">click</span>
+<img src="en/img/start/4.png" class="start_4_img"/>
+<span class="programDes">After the touch sensor event occurs,the program starts running from this block</span>
+</div>
+</div>
+<div id="sport" class="modle">
+<header>
+<h1 id="sport_title">Moves</h1>
+<hr id="sport_hr"/>
+</header>
+<div class="programBlock">
+<span id="sport_1_con_1" class="programContent">Rotate Servos</span>
+<span id="sport_1_con_2" class="programContentSport">ID:Angle</span>
+<span id="sport_1_con_3" class="programContent">in</span>
+<span id="sport_1_con_4" class="programContentSport">400</span>
+<span id="sport_1_con_5" class="programContent">ms</span>	
+<img src="en/img/sport/servo-angle.png" class="sport_servo-angle_img"/>
+<span class="programDes">Rotate a specific part of the model to a designated angle within the specified time</span>
+</div>
+<div class="programBlock">
+<span id="sport_2_con_1" class="programContent">Rotate servo 360°</span>
+<span id="sport_2_con_2" class="programContentSport">ID:direction:speed</span>
+<img src="en/img/sport/servo-turn.png" class="sport_servo-turn_img"/>
+<span class="programDes">Rotate a specific part of the model by 360° like wheel.You can define the direction and speed of rotation.</span>
+</div>	
+<div class="programBlock">
+<span id="sport_3_con_1" class="programContent">Run to</span>
+<span id="sport_3_con_2" class="programContentSport">Action</span>
+<span id="sport_3_con_3" class="programContent">during</span>
+<span id="sport_3_con_4" class="programContentSport">400</span>
+<span id="sport_3_con_5" class="programContent">ms</span>
+<img src="en/img/sport/action.png" class="sport_action_img"/>
+<span class="programDes">Move the model to a pre-recorded position</span>
+</div>	
+</div>
+<div id="control" class="modle">
+<header>
+<h1 id="control_title">Control</h1>
+<hr id="control_hr"/>
+</header>
+<div class="programBlock" id="controlBlock1">
+<span id="control_1_con_1" class="programContent">if</span>
+<span id="control_1_con_2" class="programContentControl1">A</span>
+<span id="control_1_con_3" class="programContent">do</span>
+<span id="control_1_con_4" class="programContentControl1">B</span>
+<img src="en/img/control/1.png" class="control_1_img"/>
+<span class="programDes">If Event A occurs,implement B</span>
+</div>
+<div class="programBlock" id="controlBlock2">
+<span id="control_2_con_1" class="programContent">if</span>
+<span id="control_2_con_2" class="programContentControl1">A</span>
+<span id="control_2_con_3" class="programContentControl1">B</span>
+<span id="control_2_con_4" class="programContent">else</span>
+<span id="control_2_con_5" class="programContentControl1">C</span>
+<img src="en/img/control/2.png" class="control_2_img"/>
+<span class="programDes">If Event A occurs,implement B,otherwise implement C</span>
+</div>
+<div class="programBlock" id="controlBlock3">
+<span id="control_3_con_1" class="programContent">repeat</span>
+<span id="control_3_con_2" class="programContentControl1">B</span>
+<span id="control_3_con_3" class="programContent">until</span>
+<span id="control_3_con_4" class="programContentControl1">A</span>
+<img src="en/img/control/3.png" class="control_3_img"/>
+<span class="programDes">Repeat implementation of B before A occurs</span>
+</div>
+<div class="programBlock" id="controlBlock4">
+<span id="control_4_con_1" class="programContent">while</span>
+<span id="control_4_con_2" class="programContentControl1">A</span>
+<span id="control_4_con_3" class="programContent">repeat</span>
+<span id="control_4_con_4" class="programContentControl1">B</span>
+<img src="en/img/control/4.png" class="control_4_img"/>
+<span class="programDes">Repeat implementation of B after Event A occurs</span>
+</div>
+<div class="programBlock" id="controlBlock5">
+<span id="control_5_con_1" class="programContent">wait for</span>
+<span id="control_5_con_2" class="programContentControl1">A</span>
+<img src="en/img/control/5.png" class="control_5_img"/>
+<span class="programDes">Remain in a wait state until Event A has occurred</span>
+</div>
+<div class="programBlock" id="controlBlock6">
+<span id="control_6_con_1" class="programContent">repeat</span>
+<span id="control_6_con_2" class="programContentControl2">3</span>
+<span id="control_6_con_3" class="programContent"></span>
+<span id="control_6_con_4" class="programContentControl1">A</span>
+<img src="en/img/control/6.png" class="control_6_img"/>
+<span class="programDes">Make the model repeat implementation of A for a number of times</span>
+</div>
+<div class="programBlock" id="controlBlock7">
+<span id="control_7_con_1" class="programContent">wait</span>
+<span id="control_7_con_2" class="programContentControl2">5000</span>
+<span id="control_7_con_3" class="programContent">ms</span>
+<img src="en/img/control/7.png" class="control_7_img"/>
+<span class="programDes">Make the model wait for the specified event</span>
+</div>
+</div>
+<div id="event" class="modle">
+<header>
+<h1 id="event_title">Events</h1>
+<hr id="event_hr"/>
+</header>
+<div class="programBlock">
+<span id="event_1_con_1" class="programContent">Low power</span>
+<img src="en/img/event/1.png" class="event_1_img"/>
+<span class="programDes">Determine if the battery of the model is less than 20%</span>
+</div>
+<div class="programBlock">
+<span id="event_3_con_1" class="programContent">Phone/tablet</span>
+<span id="event_3_con_2" class="programContentEvent">Tile left</span>
+<img src="en/img/event/3.png" class="event_3_img"/>
+<span class="programDes">Determine the state of the mobile phone/tablet</span>
+</div>
+<div class="programBlock" id="eventBlock4">
+<span id="event_4_con_1" class="programContent">Gyroscpe</span>
+<span id="event_4_con_2" class="programContentEvent">ID-1</span>
+<span id="event_4_con_3" class="programContentEvent">Roll angle</span>
+<span id="event_4_con_4" class="programContent">angle</span>
+<span id="event_4_con_5" class="programContentEvent">&gt;</span>
+<span id="event_4_con_6" class="programContentEvent">1</span>
+<img src="en/img/event/4.png" class="event_4_img"/>
+<span class="programDes">Determine if the gyro angles are the same as what have been defined</span>
+</div>
+<div class="programBlock" id="eventBlock2">
+<span id="event_2_con_1" class="programContent">IR Sensor</span>
+<span id="event_2_con_2" class="programContentEvent">ID-1</span>
+<span id="event_2_con_3" class="programContent">reflectance between obstacle</span>
+<span id="event_2_con_4" class="programContentEvent">&gt;</span>
+<span id="event_2_con_5" class="programContentEvent">1</span>
+<img src="en/img/event/2.png" class="event_2_img"/>
+<span class="programDes">Determain the distance between the infrared sensor and the obstacle</span>
+</div>
+</div>
+<div id="show" class="modle">
+<header>
+<h1 id="show_title">Show</h1>
+<hr id="show_hr"/>
+</header>
+<div class="programBlock">
+<span id="show_1_con_1" class="programContent">Play sound</span>
+<span id="show_1_con_2" class="programContentShow">Animal:bear</span>
+<img src="en/img/show/1.png" class="show_1_img"/>
+<span class="programDes">Play the built-in sounds or your own recordings</span>
+</div>
+<div class="programBlock">
+<span id="show_2_con_1" class="programContent">Play tune</span>
+<span id="show_2_con_2" class="programContentShow">C5</span>
+<img src="en/img/show/2.png" class="show_2_img"/>
+<span class="programDes">Play tune</span>
+</div>
+<div class="programBlock">
+<span id="show_3_con_1" class="programContent">Show emoji</span>
+<span id="show_3_con_2" class="programContentShow">ID-1:blink</span>
+<span id="show_3_con_3" class="programContentShow">3</span>
+<span id="show_3_con_4" class="programContent">times</span>
+<img src="en/img/show/3.png" class="show_3_img"/>
+<span class="programDes">Use LEDs to display expressions</span>
+</div>
+<div class="programBlock">
+<span id="show_5_con_1" class="programContent">Show LEDs</span>
+<span id="show_5_con_2" class="programContentShow">ID-1:all bright</span>
+<span id="show_5_con_3" class="programContent">for</span>
+<span id="show_5_con_4" class="programContentShow">3000</span>
+<span id="show_5_con_5" class="programContent">ms</span>
+<img src="en/img/show/5.png" class="show_5_img"/>
+<span class="programDes">Specify the position of the LEDs to display a specific color</span>
+</div>
+<div class="programBlock">
+<span id="show_4_con_1" class="programContent">Show Light Display</span>
+<span id="show_4_con_2" class="programContentShow">ID-1:7 Colored Lights</span>
+<span id="show_4_con_3" class="programContentShow">3</span>
+<span id="show_4_con_4" class="programContent">times</span>
+<img src="en/img/show/4.png" class="show_4_img"/>
+<span class="programDes">Show scene lighting with LED lights</span>
+</div>
+</div>
+<div id="perceived" class="modle">
+<header>
+<h1 id="perceived_title">Sensors</h1>
+<hr id="perceived_hr"/>
+</header>
+<div class="programBlock">
+<span id="perceived_1_con_1" class="programContent">IR sensor</span>
+<span id="perceived_1_con_2" class="programContentPerceived">ID-1</span>
+<span id="perceived_1_con_3" class="programContent">reflectance between obstacle</span>
+<img src="en/img/perceived/1.png" class="perceived_1_img"/>
+<span class="programDes">Get the distance between the infrared sensor and the obstacle</span>
+</div>
+<div class="programBlock">
+<span id="perceived_2_con_1" class="programContent">Gyroscpe</span>
+<span id="perceived_2_con_2" class="programContentPerceived">ID-1</span>
+<span id="perceived_2_con_3" class="programContentPerceived">Roll angle</span>
+<span id="perceived_2_con_4" class="programContent">angle</span>
+<img src="en/img/perceived/2.png" class="perceived_2_img"/>
+<span class="programDes">Get the course angle or roll or pitch angles of the gyro</span>
+</div>
+<div class="programBlock">
+<span id="perceived_3_con_1" class="programContent">Servo</span>
+<span id="perceived_3_con_2" class="programContentPerceived">ID-1</span>
+<span id="perceived_3_con_3" class="programContent">angle</span>
+<img src="en/img/perceived/3.png" class="perceived_3_img"/>
+<span class="programDes">Get the angle of the servo</span>
+</div>
+<div class="programBlock">
+<span id="perceived_4_con_1" class="programContent">Set gyroscpe</span>
+<span id="perceived_4_con_2" class="programContentPerceived">ID-1</span>
+<span id="perceived_4_con_3" class="programContent">all the angle to zero degrees</span>
+<img src="en/img/perceived/4.png" class="perceived_4_img"/>
+<span class="programDes">Set all the angles at current gyro's position to be 0°</span>
+</div>
+</div>
+<div id="math" class="modle">
+<header>
+<h1 id="math_title">Math</h1>
+<hr id="math_hr"/>
+</header>
+<div class="programBlock">
+<span id="math_1_con_1" class="programContentMath">1</span>
+<img src="en/img/math/1.png" class="math_1_img"/>
+<span class="programDes">Integer value</span>
+</div>
+<div class="programBlock">
+<span id="math_2_con_1" class="programContentMath">variable</span>
+<img src="en/img/math/2.png" class="math_2_img"/>
+<span class="programDes">Define variable</span>
+</div>
+<div class="programBlock">
+<span id="math_3_con_1" class="programContent">set</span>
+<span id="math_3_con_2" class="programContentMath">variable</span>
+<span id="math_3_con_3" class="programContentMath">0</span>
+<img src="en/img/math/3.png" class="math_3_img"/>
+<span class="programDes">Assign variable</span>
+</div>
+<div class="programBlock">
+<span id="math_4_con_1" class="programContent">constrain</span>
+<span id="math_4_con_2" class="programContentMath">50</span>
+<span id="math_4_con_3" class="programContent">from</span>
+<span id="math_4_con_4" class="programContentMath">1</span>
+<span id="math_4_con_5" class="programContent">to</span>
+<span id="math_4_con_6" class="programContentMath">100</span>
+<img src="en/img/math/4.png" class="math_4_img"/>
+<span class="programDes">Set minimun and maximum numerical limits</span>
+</div>
+<div class="programBlock">
+<span id="math_5_con_1" class="programContent">random integer from</span>
+<span id="math_5_con_2" class="programContentMath">1</span>
+<span id="math_5_con_3" class="programContent">to</span>
+<span id="math_5_con_4" class="programContentMath">100</span>
+<span id="math_5_con_5" class="programContent"></span>
+<img src="en/img/math/5.png" class="math_5_img"/>
+<span class="programDes">A random number is returned</span>
+</div>
+<div class="programBlock">
+	<span id="math_6_con_1" class="programContentMath">=</span>
+<img src="en/img/math/6.png" class="math_6_img"/>
+<span class="programDes">Determine the larger of two integer values</span>
+</div>
+<div class="programBlock">
+<span id="math_7_con_1" class="programContentMath">1</span>
+<span id="math_7_con_2" class="programContentMath">+</span>
+<span id="math_7_con_3" class="programContentMath">1</span>
+<img src="en/img/math/7.png" class="math_7_img"/>
+<span class="programDes">Perform arithmetic operations on the values</span>
+</div>
+<div class="programBlock">
+<span id="math_8_con_1" class="programContentMath">and</span>
+<img src="en/img/math/7.png" class="math_7_img"/>
+<span class="programDes">When both of the two events have occurred,"True" is returned.</span>
+</div>
+<div class="programBlock">
+<span id="math_9_con_1" class="programContent">not</span>
+<img src="en/img/math/9.png" class="math_9_img"/>
+<span class="programDes">When the event has occurred,"False" is returned,otherwise "True" is returned.</span>
+</div>
+<div class="programBlock">
+<span id="math_10_con_1" class="programContentMath">or</span>
+<img src="en/img/math/7.png" class="math_7_img"/>
+<span class="programDes">When one of two events has occurred,"True" is returned.</span>
+</div>
+<div class="programBlock">
+<span id="math_11_con_1" class="programContentMath">variable</span>
+<span id="math_11_con_2" class="programContentMath">+</span>
+<span id="math_11_con_3" class="programContentMath">0</span>
+<img src="en/img/math/11.png" class="math_11_img"/>
+<span class="programDes">Variable increase or decreases</span>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,648 @@
+. {
+	margin: 0;
+	padding: 0;
+}
+.modle {
+	width: 92%;
+	padding: 28px 4%;
+	clear: both;
+}
+h1 {
+	font-size: 1.0625rem;
+}
+hr {
+	width: 100%;
+	height: 4px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius:2px;
+	border-style: hidden;
+	margin-top: -0.625rem;
+}
+#start_title {
+	color: #0CE7C1;
+}
+#sport_title {
+	color: #53B4FF;
+}
+#control_title {
+	color: #7A92E0;
+}
+#event_title {
+	color: #FFA576;
+}
+#show_title {
+	color: #51D96E;
+}
+#perceived_title {
+	color: #F8C400;
+}
+#math_title {
+	color: #809296;
+}
+#start_hr {
+	background-color: #0CE7C1;
+}
+#sport_hr {
+	background-color: #53B4FF;
+}
+#control_hr {
+	background-color: #7A92E0;
+}
+#event_hr {
+	background-color: #FFA576;
+}
+#show_hr {
+	background-color: #51D96E;
+}
+#perceived_hr {
+	background-color: #F8C400;
+}
+#math_hr {
+	background-color: #809296;
+}
+.programBlock {
+	width: 49%;
+	height: 80px;
+	margin: 28px 0 0 0;
+	position: relative;
+	float: left;
+	/*border: 1px solid black;*/
+}
+#controlBlock1 {
+	height: 120px;
+}
+#controlBlock2 {
+	height: 175px;
+}
+#controlBlock3 {
+	height: 135px;
+	margin-top: -29.25px;
+}
+#controlBlock4 {
+	height: 120px;
+}
+#controlBlock5 {
+	margin-top: -14.625px;
+}
+#controlBlock6 {
+	height: 120px;
+}
+#controlBlock7 {
+	margin-top: -58px;
+}
+.programContent,
+.programContentStart,
+.programContentSport,
+.programContentControl1,
+.programContentControl2,
+.programContentEvent,
+.programContentShow,
+.programContentPerceived,
+.programContentMath{
+	font-size: 0.75rem;
+	line-height: 0.75rem;
+	position: absolute; 
+	top: 13px; 
+	color: white;
+	/*border: 1px solid black;*/
+}
+.programContentStart {
+	color: #0D6C5B;
+}
+.programContentSport {
+	color: #004E8B;
+}
+.programContentControl1 {
+	color: #A1B3B7;
+}
+.programContentControl2 {
+	color: #19295A;
+}
+.programContentEvent {
+	color: #842D00;
+}
+.programContentShow {
+	color: #096C1D;
+}
+.programContentPerceived {
+	color: #9C6E00;
+}
+.programContentMath {
+	color: #2F2F2F;
+}
+.programDes {
+	padding-top: 0.625rem;
+	font-size: 0.75rem;
+	color: #A1B3B7;
+	width: 90%;
+	display: block;
+	/*border: 1px solid black;*/
+}
+.start_1_img {
+	width: 112px;
+	height: 43px;
+}
+.start_2_img {
+	width: 86.5px;
+	height: 38px;
+}
+.start_3_img {
+	width: 154px;
+	height: 38px;
+}
+.start_4_img {
+	width: 217px;
+	height: 43px;
+}
+.sport_action_img {
+	width: 204.5px;
+	height: 43px;
+}
+.sport_servo-angle_img {
+	width: 245.5px;
+	height: 43px;
+}
+.sport_servo-turn_img {
+	width: 197.5px;
+	height: 43px;
+}
+.control_1_img {
+	width: 135px;
+	height: 86.5px;
+}
+.control_2_img {
+	width: 135.5px;
+	height: 145px;
+}
+.control_3_img {
+	width: 145.5px;
+	height: 102.5px;
+}
+.control_4_img {
+	width: 134.5px;
+	height: 86.5px;
+}
+.control_5_img {
+	width: 158.5px;
+	height: 43px;
+}
+.control_6_img {
+	width: 119px;
+	height: 86.5px;
+}
+.control_7_img {
+	width: 122px;
+	height: 43px;
+}
+.event_1_img {
+	width: 106px;
+	height: 38px;
+}
+.event_2_img {
+	width: 270.5px;
+	height: 38px;
+}
+.event_3_img {
+	width: 161.5px;
+	height: 38px;
+}
+.event_4_img {
+	width: 229px;
+	height: 38px;
+}
+.show_1_img {
+	width: 139px;
+	height: 43px;
+}
+.show_2_img {
+	width: 119px;
+	height: 43px;
+}
+.show_3_img {
+	width: 214.5px;
+	height: 43px;
+}
+.show_4_img {
+	width: 258.5px;
+	height: 43px;
+}
+.show_5_img {
+	width: 269.5px;
+	height: 43px;
+}
+.perceived_1_img {
+	width: 223px;
+	height: 38px;
+}
+.perceived_2_img {
+	width: 202px;
+	height: 38px;
+}
+.perceived_3_img {
+	width: 150px;
+	height: 43px;
+}
+.perceived_4_img {
+	width: 224px;
+	height: 38.5px;
+}
+.math_1_img {
+	width: 51.5px;
+	height: 38px;
+}
+.math_2_img {
+	width: 69.5px;
+	height: 38px;
+}
+.math_3_img {
+	width: 175px;
+	height: 38px;
+}
+.math_4_img {
+	width: 222.5px;
+	height: 38px;
+}
+.math_5_img {
+	width: 220.5px;
+	height: 38px;
+}
+.math_6_img {
+	width: 175px;
+	height: 38px;
+}
+.math_7_img {
+	width: 175px;
+	height: 38px;
+}
+.math_9_img {
+	width: 83.5px;
+	height: 38px;
+}
+#start_1_con {
+	left: 26px;
+}
+#start_2_con {
+	left: 30px;
+}
+#start_3_con_1 {
+	left: 28px;
+}
+#start_3_con_2 {
+	left: 93px;
+}
+#start_4_con_1 {
+	left: 30px;
+}
+#start_4_con_2 {
+	left: 100px;
+}
+#start_4_con_3 {
+	left: 134px;
+}
+#start_4_con_4 {
+	left: 180px;
+}
+#sport_1_con_1 {
+	left: 30px;
+}
+#sport_1_con_2 {
+	left: 88px;
+}
+#sport_1_con_3 {
+	left: 141px;
+}
+#sport_1_con_4 {
+	left: 183px;
+}
+#sport_1_con_5 {
+	left: 215px;
+}
+#sport_2_con_1 {
+	left: 32px;
+}
+#sport_2_con_2 {
+	left: 115px;
+}
+#sport_3_con_1 {
+	left: 30px;
+}
+#sport_3_con_2 {
+	left: 66px;
+}
+#sport_3_con_3 {
+	left: 103px;
+}
+#sport_3_con_4 {
+	left: 144px;
+}
+#sport_3_con_5 {
+	left: 175px;
+}
+#control_1_con_1 {
+	left: 5px;
+	top: 12px;
+}
+#control_1_con_2 {
+	left: 95px;
+	top: 12px;
+}
+#control_1_con_3 {
+	left: 5px;
+	top: 46px;
+}
+#control_1_con_4 {
+	left: 95px;
+	top: 46px;
+}
+#control_2_con_1 {
+	left: 5px;
+	top: 11px;
+}
+#control_2_con_2 {
+	left: 95px;
+	top: 11px;
+}
+#control_2_con_3 {
+	left: 95px;
+	top: 43px;
+}
+#control_2_con_4 {
+	left: 5px;	
+	top: 75px;
+}
+#control_2_con_5 {
+	left: 95px;
+	top: 108px;
+}
+#control_3_con_1 {
+	left: 5px;
+	top: 11px;
+}
+#control_3_con_2 {
+	left: 95px;
+	top: 38px;
+}
+#control_3_con_3 {
+	left: 5px;
+	top: 71px;
+}
+#control_3_con_4 {
+	left: 105px;
+	top: 71px;
+}
+#control_4_con_1 {
+	left: 5px;
+	top: 12px;
+}
+#control_4_con_2 {
+	left: 95px;
+	top: 12px;
+}
+#control_4_con_3 {
+	left: 5px;
+	top: 46px;
+}
+#control_4_con_4 {
+	left: 95px;
+	top: 46px;
+}
+#control_5_con_1 {
+	left: 5px;
+}
+#control_5_con_2 {
+	left: 117px;
+}
+#control_6_con_1 {
+	left: 5px;
+	top: 12px;
+}
+#control_6_con_2 {
+	left: 62px;
+	top: 12px;
+}
+#control_6_con_3 {
+	left: 93px;
+	top: 12px;
+}
+#control_6_con_4 {
+	left: 75px;
+	top: 46px;
+}
+#control_7_con_1 {
+	left: 5px;
+}
+#control_7_con_2 {
+	left: 50px;
+}
+#control_7_con_3 {
+	left: 88px;
+}
+#event_1_con_1 {
+	left: 36px;
+}
+#event_2_con_1 {
+	left: 34px;
+}
+#event_2_con_2 {
+	left: 109px;
+}
+#event_2_con_3 {
+	left: 141px;
+}
+#event_2_con_4 {
+	left: 226px;
+}
+#event_2_con_5 {
+	left: 250px;
+}
+#event_3_con_1 {
+	left: 34px;
+}
+#event_3_con_2 {
+	left: 100px;
+}
+#event_4_con_1 {
+	left: 35px;
+}
+#event_4_con_2 {
+	left: 83px;
+}
+#event_4_con_3 {
+	left: 122px;
+}
+#event_4_con_4 {
+	left: 154px;
+}
+#event_4_con_5 {
+	left: 178px;
+}
+#event_4_con_6 {
+	left: 209px;
+}
+#show_1_con_1 {
+	left: 28px;
+}
+#show_1_con_2 {
+	left: 85px;
+}
+#show_2_con_1 {
+	left: 27px;
+}
+#show_2_con_2 {
+	left: 90px;
+}
+#show_3_con_1 {
+	left: 28px;
+}
+#show_3_con_2 {
+	left: 87px;
+}
+#show_3_con_3 {
+	left: 169px;
+}
+#show_3_con_4 {
+	left: 196px;
+}
+#show_4_con_1 {
+	left: 29px;
+}
+#show_4_con_2 {
+	left: 97px;
+}
+#show_4_con_3 {
+	left: 214px;
+}
+#show_4_con_4 {
+	left: 239px;
+}
+#show_5_con_1 {
+	left: 27px;
+}
+#show_5_con_2 {
+	left: 86px;
+}
+#show_5_con_3 {
+	left: 151px;
+}
+#show_5_con_4 {
+	left: 196px;
+}
+#show_5_con_5 {
+	left: 236px;
+}
+#perceived_1_con_1 {
+	left: 34px;
+}
+#perceived_1_con_2 {
+	left: 109px;
+}
+#perceived_1_con_3 {
+	left: 142px;
+}
+#perceived_2_con_1 {
+	left: 36px;
+}
+#perceived_2_con_2 {
+	left: 85px;
+}
+#perceived_2_con_3 {
+	left: 124px;
+}
+#perceived_2_con_4 {
+	left: 172px;
+}
+#perceived_3_con_1 {
+	left: 30px;
+}
+#perceived_3_con_2 {
+	left: 72px;
+}
+#perceived_3_con_3 {
+	left: 167px;
+}
+#perceived_4_con_1 {
+	left: 35px;
+}
+#perceived_4_con_2 {
+	left: 109px;
+}
+#perceived_4_con_3 {
+	left: 145px;
+}
+#math_1_con_1 {
+	left: 27px;
+}
+#math_2_con_1 {
+	left: 26px;
+}
+#math_3_con_1 {
+	left: 15px;
+}
+#math_3_con_2 {
+	left: 56px;
+}
+#math_3_con_3 {
+	left: 142px;
+}
+#math_4_con_1 {
+	left: 15px;
+}
+#math_4_con_2 {
+	left: 59px;
+}
+#math_4_con_3 {
+	left: 86px;
+}
+#math_4_con_4 {
+	left: 133px;
+}
+#math_4_con_5 {
+	left: 160px;
+}
+#math_4_con_6 {
+	left: 188px;
+}
+#math_5_con_1 {
+	left: 15px;
+}
+#math_5_con_2 {
+	left: 60px;
+}
+#math_5_con_3 {
+	left: 90px;
+}
+#math_5_con_4 {
+	left: 120px;
+}
+#math_5_con_5 {
+	left: 154px;
+}
+#math_7_con_1 {
+	left: 40px;
+}
+#math_7_con_2 {
+	left: 84px;
+}
+#math_7_con_3 {
+	left: 132px;
+}
+#math_8_con_1 {
+	left: 81px;
+}
+#math_9_con_1 {
+	left: 15px;
+}
+#math_10_con_1 {
+	left: 81px;
+}
+#math_11_con_1 {
+	left: 31px;
+}
+#math_11_con_2 {
+	left: 84px;
+}
+#math_11_con_3 {
+	left: 132px;
+}
+
